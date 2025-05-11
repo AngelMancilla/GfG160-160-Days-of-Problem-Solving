@@ -1,8 +1,7 @@
 class Solution:
     """
-    Given an array of positive integers arr[], 
-    return the second largest element from the array. 
-    If the second largest element doesn't exist then return -1.
+    Returns the second largest distinct element in the array.
+    If it doesn't exist (e.g., all elements are equal or the array has fewer than 2 elements), returns -1.
     """
     def getSecondLargest(self, arr):
         n = len(arr)
